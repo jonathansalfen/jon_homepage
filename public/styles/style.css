@@ -101,6 +101,7 @@ h1 {
 	font-family: 'Lato', sans-serif;
 	font-weight: 500;
 	text-align: justify;
+	font-size: 1.7em;
 }
 
 /*ABOUT*/
@@ -114,8 +115,13 @@ h1 {
 /*PORTFOLIO*/
 
 .portfolio_pics {
-	margin: 0 auto;
 	border-radius: 20px;
+	margin: 0 auto;
+	max-width: 400px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: black;
+
 }
 
 /*CONTACT*/
