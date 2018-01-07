@@ -7,24 +7,24 @@
 	<link href="styles/bootstrap.css" rel="stylesheet" type="text/css">
 	<link href="styles/style.css" rel="stylesheet" type="text/css">
 	<!-- repaste link below when fonts are wittled down -->
-	<link href='https://fonts.googleapis.com/css?family=Lato|Permanent+Marker' rel='stylesheet' type='text/css'>
+	<link href="https://fonts.googleapis.com/css?family=Lato|Permanent+Marker" rel="stylesheet" type="text/css">
 	<!-- <link href='https://fonts.googleapis.com/css?family=Cantora+One|Droid+Serif:400,700italic,700,400italic|Permanent+Marker|Dosis:400,300,200,500,600,700,800' rel='stylesheet' type='text/css'> -->
   
 
 </head>
 <body class="paper_background">
-	
+	<div class="section_sepertor">
 		<div id="welcome_window" class="container-fluid">
-			<h1>Jonathan Salfen</h1>	
-			<h2>Web Developer</h2>
+			<h1 class="initialLoadFadeIn">Jonathan Salfen</h1>	
+			<h2 class="initialLoadFadeIn">Web Developer</h2>
 
 		</div>
-		<div class="container-fluid point_down">
-			<span class="glyphicon glyphicon-hand-down" aria-hidden="true">
+		<div class="container-fluid point_down initialLoadFadeIn">
+			<span class="glyphicon glyphicon-hand-down" aria-hidden="true"></span>
 		</div>
-
+	</div>
 <!-- about -->
-		<div id="about_section">
+		<div class="section_sepertor" id="about_section">
 			<div class="container-fluid section_headline">
 				<h1>About</h1>	
 			</div>
@@ -101,7 +101,7 @@
 		</div>
 
 <!-- portfolio -->
-		<div id="portfolio_section">
+		<div class="section_sepertor" id="portfolio_section">
 			<div class="container-fluid section_headline">
 				<h1>Portfolio</h1>	
 			</div>
@@ -117,7 +117,7 @@
 								<h3 class="body_paragraphs">My old website.</h3>
 						</div> -->
 						<div class="col-md-4 img-responsive">
-							<a href="https://jonathansalfen.com/project_lumber/" target="_blank">
+							<a href="https://clcolumber.wpengine.com/" target="_blank">
 								<img src="images/lumber_thumb.jpg" class="img-responsive portfolio_pics" alt="Responsive image">
 							</a>
 								<h3 class="body_paragraphs">This website was developed for a Portland lumber company.  It uses Wordpress and X Theme to allow for easy editing by non-programmers.<br><br><br></h3>
@@ -129,8 +129,8 @@
 								<h3 class="body_paragraphs">With a Django framework, this project uses CSS, Javascript, and Bootstrap to experiment with storytelling.  The user is manipulated emotionally by integrating their personal details into the anecdote.<br><br><br></h3>
 						</div>
 						<div class="col-md-4img-responsive">
-							<a href="https://jonathansalfen.com/project_comedian/" target="_blank">
-								<img src="images/comedian_thumb.jpg" class="img-responsive portfolio_pics" alt="Responsive image">
+							<a href="https://www.bitbybitbootcamp.com/" target="_blank">
+								<img src="images/bitbybitbootcamp_thumb.jpg" class="img-responsive portfolio_pics" alt="Responsive image">
 							</a>
 								<h3 class="body_paragraphs">A portfolio page for a Portland commedian, also created with Wordpress and X Theme.  The design and photo choices are used to subtly convey her brand of humor.<br><br><br></h3>
 						</div>
@@ -138,7 +138,7 @@
 			</div>
 		</div>
 <!-- contact -->
-		<div id="contact_section">
+		<div class="section_sepertor" id="contact_section">
 			<div class="container-fluid section_headline">
 				<h1>Contact</h1>	
 			</div>
@@ -169,10 +169,10 @@
 				</div> -->
 
 				<ul class="nav navbar-nav">
-				<li class="active">
-				<li><a class="footer_color" href="#about_section">About</a></li>
-				<li><a class="footer_color" href="#portfolio_section">Portfolio</a></li> 
-				<li><a class="footer_color" href="#contact_section">Contact</a></li> 
+					<li class="active">
+					<li><a class="footer_color" href="#about_section">About</a></li>
+					<li><a class="footer_color" href="#portfolio_section">Portfolio</a></li> 
+					<li><a class="footer_color" href="#contact_section">Contact</a></li> 
 				</ul>
 			</div>
 		</nav>
