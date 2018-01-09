@@ -12,6 +12,7 @@ body, html, main {
 	/*background-repeat: no-repeat;*/
 	background-position: center center;
 	background-image: url("../images/paper_background.jpg");
+	background-attachment: fixed;
 }
 
 
@@ -81,6 +82,11 @@ h1 {
 
 /*spacing*/
 #about_section {
+	padding-top:100px;
+	padding-bottom: 200px;
+}
+
+#bitbybit_section {
 	padding-top:100px;
 	padding-bottom: 200px;
 }
