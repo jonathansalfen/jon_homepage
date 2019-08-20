@@ -120,10 +120,12 @@ h3 {
 
 .body_paragraphs {
 	font-family: 'Work Sans', sans-serif;
-	text-align: left;
+	text-align: justify;
 }
 
 /*ABOUT*/
+
+
 
 .pic_of_me {
 	border-radius: 10px;
@@ -152,6 +154,7 @@ h3 {
 	margin: 0 3em 0 3em;
 	grid-column-gap: 5%;
 	grid-row-gap: 5%;
+	font-family: 'Work Sans', sans-serif;
 }
 
 /* table {
