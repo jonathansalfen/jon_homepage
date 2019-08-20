@@ -1,216 +1,362 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="utf-8"/>
+	<!-- <meta charset="utf-8"/> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Jonathan Salfen | Web Developer</title>
-	<link rel="prefetch" href="../images/paper_background.jpg">
-	<link href="styles/bootstrap.css" rel="stylesheet" type="text/css">
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 	<link href="styles/style.css" rel="stylesheet" type="text/css">
 	<!-- repaste link below when fonts are wittled down -->
-	<link href="https://fonts.googleapis.com/css?family=Lato|Permanent+Marker" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:900|Work+Sans:300" rel="stylesheet">
 	<!-- <link href='https://fonts.googleapis.com/css?family=Cantora+One|Droid+Serif:400,700italic,700,400italic|Permanent+Marker|Dosis:400,300,200,500,600,700,800' rel='stylesheet' type='text/css'> -->
-  
+
 
 </head>
-<body class="paper_background">
+<body>
+	<nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark">
+    <a class="navbar-brand" href="#">Jonathan Salfen</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#about_section">About<span class="sr-only">(current)</span></a>
+        </li>
+				<li class="nav-item active">
+          <a class="nav-link" href="#portfolio_section">Portfolio<span class="sr-only">(current)</span></a>
+        </li>
+				<li class="nav-item active">
+          <a class="nav-link" href="#contact_section">Contact<span class="sr-only">(current)</span></a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
 	<div class="section_sepertor">
 		<div id="welcome_window" class="container-fluid">
-			<h1 class="initialLoadFadeIn">Jonathan Salfen</h1>	
-			<h2 class="initialLoadFadeIn">Web Developer</h2>
+			<h1 class="initialLoadFadeIn">Jonathan Salfen</h1>
+			<h2 class="initialLoadFadeIn">A Web Developer</h2>
+			<div class="intro-paragraph">
+				<p>
+					Once upon a lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+					non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				</p>
+			</div>
 
 		</div>
-		<div class="container-fluid point_down initialLoadFadeIn">
+		<!-- <div class="container-fluid point_down initialLoadFadeIn">
 			<span class="glyphicon glyphicon-hand-down" aria-hidden="true"></span>
-		</div>
+		</div> -->
+	</div>
+	<div class="parallax_window">
+
 	</div>
 <!-- about -->
 		<div class="section_sepertor" id="about_section">
 			<div class="container-fluid section_headline">
-				<h1>About</h1>	
+				<h1>About</h1>
 			</div>
 			<div class="container-fluid">
-				<div class="col-md-1"></div>
-				<div class="col-md-5 portfolio">
-					<img src="images/jonathan.jpg" class="img-responsive pic_of_me" alt="Responsive image">
-				</div>
-				<div class="col-md-1"></div>
-				<div class="col-md-4">
-					<table class="body_paragraphs">
-						<tr>
-							<td>Python</td>
-							<td>
-								<span class="glyphicon glyphicon-star" aria-hidden="true"></span>
-								<span class="glyphicon glyphicon-star" aria-hidden="true"></span>
-							</td>
-						</tr>
-						<tr>
-							<td>Javascript</td>
-							<td>
-								<span class="glyphicon glyphicon-star" aria-hidden="true"></span>
-								<span class="glyphicon glyphicon-star" aria-hidden="true"></span>
-							</td>
-						</tr>
-						<tr>
-							<td>PHP</td>
-							<td>
-								<span class="glyphicon glyphicon-star" aria-hidden="true"></span>
-							</td>
-						</tr>
-						<tr>
-							<td>HTML</td>
-							<td>
-								<span class="glyphicon glyphicon-star" aria-hidden="true"></span>
-								<span class="glyphicon glyphicon-star" aria-hidden="true"></span>
-								<span class="glyphicon glyphicon-star" aria-hidden="true"></span>
-								<span class="glyphicon glyphicon-star" aria-hidden="true"></span>
-							</td>
-						</tr>
-						<tr>
-							<td>CSS</td>
-							<td>
-								<span class="glyphicon glyphicon-star" aria-hidden="true"></span>
-								<span class="glyphicon glyphicon-star" aria-hidden="true"></span>
-								<span class="glyphicon glyphicon-star" aria-hidden="true"></span>
-							</td>
-						</tr>
-						<tr>
-							<td>Wordpress&nbsp&nbsp</td>
-							<td>
-								<span class="glyphicon glyphicon-star" aria-hidden="true"></span>
-								<span class="glyphicon glyphicon-star" aria-hidden="true"></span>
-								<span class="glyphicon glyphicon-star" aria-hidden="true"></span>
-								<span class="glyphicon glyphicon-star" aria-hidden="true"></span>
-							</td>
-						</tr>
-						<tr>
-							<td>Photoshop</td>
-							<td>
-								<span class="glyphicon glyphicon-star" aria-hidden="true"></span>
-								<span class="glyphicon glyphicon-star" aria-hidden="true"></span>
-							</td>
-						</tr>
-						<tr>
-							<td>InDesign</td>
-							<td>
-								<span class="glyphicon glyphicon-star" aria-hidden="true"></span>
-								<span class="glyphicon glyphicon-star" aria-hidden="true"></span>
-							</td>
-						</tr>
-						<tr>
-							<td>Spanish</td>
-							<td>
-								<span class="glyphicon glyphicon-star" aria-hidden="true"></span>
-								<span class="glyphicon glyphicon-star" aria-hidden="true"></span>
-								<span class="glyphicon glyphicon-star" aria-hidden="true"></span>
-								<span class="glyphicon glyphicon-star" aria-hidden="true"></span>
-								<span class="glyphicon glyphicon-star" aria-hidden="true"></span>
-							</td>
-						</tr>
-					</table>
-					<h3 class="body_paragraphs">I'm Jonathan, a web developer with a knack for design and writing.  With a background in small business and international relations, I excel wearing many hats in chaotic positions.  I pride myself on my abliity to work with and guide a team and teach myself new technologies and skills.  One day I hope to travel the world, adopt an elderly cat, and perhaps make something awesome for you.
-					</h3>
-				</div>
-				<div class="col-md-1"></div>
-			</div>
-		</div>
 
-<!-- blog -->
-		<div class="section_sepertor" id="blog_section">
-			<div class="container-fluid section_headline">
-				<h1>Blog</h1>	
-			</div>
-			<div class="container-fluid">
-					<div class="col-md-12 portfolio_text_settings">
-						
-						<div class="col-md-4"></div>
-						<div class="col-md-4 img-responsive">
-							<a href="https://www.bitbybitbootcamp.com/" target="_blank">
-								<img src="images/bitbybitbootcamp_thumb.jpg" class="img-responsive portfolio_pics" alt="Responsive image">
-							</a>
-							<h3 class="body_paragraphs">I'm creating my own free, self-study bootcamp!  It's starting with a blog documenting my journey to becoming a programmer.  Along the way I hope to get industry feedback to create a lesson plan others can follow on their own.  Look here to see more of what I'm working on.<br><br><br></h3>
+				<div class="about_items">
+					<div class="about_item">
+						<div class="portfolio">
+							<img src="images/jonathan.jpg" class="img-responsive pic_of_me" alt="Responsive image">
 						</div>
-						<div class="col-md-4"></div>
 					</div>
+					<div class="about_item">
+						<table>
+
+							<tr>
+								<td>Javascript</td>
+								<td class="w-100">
+									<div class="progress">
+										<div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%"></div>
+									</div>
+								</td>
+							</tr>
+
+							<tr>
+								<td>React</td>
+								<td class="w-100">
+									<div class="progress">
+										<div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%"></div>
+									</div>
+								</td>
+							</tr>
+
+							<tr>
+								<td>Node.js</td>
+								<td class="w-100">
+									<div class="progress">
+										<div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%"></div>
+									</div>
+								</td>
+							</tr>
+
+							<tr>
+								<td>JQuery</td>
+								<td class="w-100">
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 30%"></div>
+									</div>
+								</td>
+							</tr>
+
+							<tr>
+								<td>Python</td>
+								<td class="w-100">
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 30%"></div>
+									</div>
+								</td>
+							</tr>
+
+
+							<tr>
+								<td>Django</td>
+								<td class="w-100">
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 30%"></div>
+									</div>
+								</td>
+							</tr>
+
+							<tr>
+								<td>Wordpress</td>
+								<td class="w-100">
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%"></div>
+									</div>
+								</td>
+							</tr>
+
+							<tr>
+								<td>HTML/CSS</td>
+								<td class="w-100">
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%"></div>
+									</div>
+								</td>
+							</tr>
+
+							<tr>
+								<td>Bootstrap</td>
+								<td class="w-100">
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%"></div>
+									</div>
+								</td>
+							</tr>
+
+							<tr>
+								<td>Adobe InDesign</td>
+								<td class="w-100">
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%"></div>
+									</div>
+								</td>
+							</tr>
+
+							<tr>
+								<td>Adobe Photoshop</td>
+								<td class="w-100">
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%"></div>
+									</div>
+								</td>
+							</tr>
+
+							<tr>
+								<td>Google Suite</td>
+								<td class="w-100">
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width: 95%"></div>
+									</div>
+								</td>
+							</tr>
+
+							<tr>
+								<td>Microsoft Office</td>
+								<td class="w-100">
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%"></div>
+									</div>
+								</td>
+							</tr>
+
+							<tr>
+								<td>Spanish</td>
+								<td class="w-100">
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width: 95%"></div>
+									</div>
+								</td>
+							</tr>
+
+
+						</table>
+					</div>
+					<div class="about_item">
+						<p class="body_paragraphs">
+						I'm Jonathan, a web developer.
+						<br></br>
+						Currently, I’m looking for a position in a web development shop where I can learn, grow, and contribute.
+						<br></br>
+						With a background in small business and international relations, I excel in fast-paced environments where I have to wear multiple hats throughout the day.  I pride myself on my ability to work with and guide a team and teach myself new technologies and skills.
+						<br></br>
+						At the moment I reside in a suburb of Portland, Oregon, however am willing to change cities for the right position.  In my free time, I enjoy hiking, gardening, traveling, baking, going to the gym, and spending time with family and friends.
+					</p>
+					</div>
+				</div>
+
+
+
+
+
+
 			</div>
 		</div>
 
 <!-- portfolio -->
 		<div class="section_sepertor" id="portfolio_section">
 			<div class="container-fluid section_headline">
-				<h1>Portfolio</h1>	
+				<h1>Portfolio</h1>
 			</div>
-			<div class="container-fluid">
-					<div class="col-md-12 portfolio_text_settings">
-						
-						<!-- Uncomment these lines as you have more projects.
-						Distribute the 12 columns as necessary. -->
-						<!-- <div class="col-md-4">
-							<a href="http://jonathansalfen.pythonanywhere.com/old_index/" target="_blank">
-								<img src="images/old_website_screenshot.png" class="img-responsive pic_of_me" alt="Responsive image">
-							</a>
-								<h3 class="body_paragraphs">My old website.</h3>
-						</div> -->
-						<div class="col-md-4 img-responsive">
-							<a href="http://jonathansalfen.pythonanywhere.com/story_intro/" target="_blank">
-								<img src="images/story_screenshot.png" class="img-responsive portfolio_pics" alt="Responsive image">
-							</a>
-							<h3 class="body_paragraphs">With a Django framework, this project uses CSS, Python, and Bootstrap to experiment with storytelling.  The user is manipulated emotionally by integrating their personal details into the anecdote.<br><br><br></h3>
-						</div>
-						<div class="col-md-4 img-responsive">
-							<a href="https://clcolumber.wpengine.com/" target="_blank">
-								<img src="images/lumber_thumb.jpg" class="img-responsive portfolio_pics" alt="Responsive image">
-							</a>
-							<h3 class="body_paragraphs">This website was developed for a Portland lumber company.  It uses Wordpress and X Theme to allow for easy editing by non-programmers.<br><br><br></h3>
-						</div>
-						<div class="col-md-4img-responsive">
-							<a href="/alphabet_reader/" target="_blank">
-								<img src="images/alphabetreader_thumb.png" class="img-responsive portfolio_pics" alt="Responsive image">
-							</a>
-							<h3 class="body_paragraphs">A program that helps language learners familiarize themselves with a new alphabet, this app was created with Javascript and JQuery.  Now in an MVP state, future editions will allow the developer to drop in language extensions while the app updates automatically.<br><br><br></h3>
-						</div>
+			<div class="portfolio_items">
+				<div class="portfolio_item">
+					<a href="http://jonathansalfen.pythonanywhere.com/story_intro/" target="_blank">
+						<img src="images/story_screenshot.png" class="portfolio_pics" alt="Responsive image">
+					</a>
+					<div class="portfolio_text">
+						<a href="http://jonathansalfen.pythonanywhere.com/story_intro/" target="_blank">
+							<h4>A Walk Without Someone</h4>
+						</a>
+						<table>
+							<tr>
+								<th>Tech:</th>
+								<td>Python, Django, Bootstrap</td>
+							</tr>
+						</table>
+						<p class="body_paragraphs">With a Django framework, this project uses
+							CSS, Python, and Bootstrap to experiment with storytelling.  The user
+							is manipulated emotionally by integrating their personal details into
+							the anecdote.
+						</p>
+						<a href="https://github.com/jonathansalfen/jon_projects_pythonanywhere/tree/master/a_walk_without_someone" target="_blank">
+							Check it out on GitHub
+						</a>
 					</div>
+				</div>
+				<div class="portfolio_item">
+					<a href="/alphabet_reader/" target="_blank">
+						<img src="images/alphabetreader_thumb.png" class="portfolio_pics" alt="Responsive image">
+					</a>
+					<div class="portfolio_text">
+						<a href="/alphabet_reader/" target="_blank">
+							<h4>Alphabet Reader</h4>
+						</a>
+						<table>
+							<tr>
+								<th>Tech:</th>
+								<td>Javascript, JQuery, Bootstrap</td>
+							</tr>
+						</table>
+						<p class="body_paragraphs">A program that helps language learners
+							familiarize themselves with a new alphabet, this app was created with
+							Javascript and JQuery.  Now in an MVP state, future editions will
+							allow the developer to drop in language extensions while the app updates
+							automatically.
+						</p>
+						<a href="https://github.com/jonathansalfen/alphabet_reader" target="_blank">
+							Check it out on GitHub
+						</a>
+					</div>
+				</div>
+				<div class="portfolio_item">
+					<a href="/prototype_lumber/" target="_blank">
+						<img src="images/lumber_thumb.jpg" class="portfolio_pics" alt="Responsive image">
+					</a>
+					<div class="portfolio_text">
+						<a href="/prototype_lumber/" target="_blank">
+							<h4>Concannon Lumber</h4>
+							<h5>Proof of Concept Website</h5>
+						</a>
+						<table>
+							<tr>
+								<th>Tech:</th>
+								<td>Wordpress, X Theme</td>
+							</tr>
+						</table>
+						<p class="body_paragraphs">This website was developed for a Portland
+							lumber company.  It uses Wordpress and X Theme to allow for easy editing
+							by non-programmers.
+						</p>
+					</div>
+				</div>
+				<div class="portfolio_item">
+					<a href="/three_challenges/" target="_blank">
+						<img src="images/threechallenges_thumb.png" class="portfolio_pics" alt="Responsive image">
+					</a>
+					<div class="portfolio_text">
+						<a href="/three_challenges/" target="_blank">
+							<h4>Three Challenges</h4>
+						</a>
+						<table>
+							<tr>
+								<th>Tech:</th>
+								<td>Javascript, JQuery, Bootstrap</td>
+							</tr>
+						</table>
+						<p class="body_paragraphs">Three coding challenges given to me by a local
+							development shop.
+						</p>
+						<a href="https://github.com/jonathansalfen/three_challenges" target="_blank">
+							Check it out on GitHub
+						</a>
+					</div>
+				</div>
 			</div>
 		</div>
+
 <!-- contact -->
 		<div class="section_sepertor" id="contact_section">
 			<div class="container-fluid section_headline">
-				<h1>Contact</h1>	
+				<h1>Contact</h1>
 			</div>
 			<div class="container-fluid">
-				<div class="col-md-3"></div>
-				<div class="col-md-2">
-					<a href="mailto:jonathan.salfen@gmail.com" class="my_email" target="_blank"></a>
-				</div>	
+				<div class="contact_items">
+					<div class="contact_item">
+						<a href="mailto:jonathan.salfen@gmail.com" class="my_email" target="_blank"></a>
+					</div>
+					<div class="contact_item">
+						<a href="https://www.linkedin.com/in/jonathansalfen" class="my_linkedin" target="_blank"></a>
+					</div>
+					<div class="contact_item">
+						<a href="https://github.com/jonathansalfen/" class="my_github" target="_blank"></a>
+					</div>
+				</div>
+
 				<!--add this back if facebook becomes active
-				<div class="col-md-2">
 					<a href="https://www.facebook.com/jonathan.salfen" class="my_facebook" target="_blank"></a>
-				</div>	
 				-->
-				<div class="col-md-2">
-					<a href="https://www.linkedin.com/in/jonathansalfen" class="my_linkedin" target="_blank"></a>
-				</div>	
-				<div class="col-md-2">
-					<a href="https://github.com/jonathansalfen/" class="my_github" target="_blank"></a>
-				</div>	
-				<div class="col-md-3"></div>
+
 			</div>
 		</div>
-		<nav class="navbar-fixed-bottom">
-			<div class="container-fluid">
-				<!-- decided later if you want this
-				<div class="navbar-header navbar-bottom">
-				<a class="navbar-brand" href="#">Jonathan Salfen</a>
-				</div> -->
 
-				<ul class="nav navbar-nav">
-					<li class="active">
-					<li><a class="footer_color" href="#about_section">About</a></li>
-					<li><a class="footer_color" href="#blog_section">Blog</a></li>
-					<li><a class="footer_color" href="#portfolio_section">Portfolio</a></li> 
-					<li><a class="footer_color" href="#contact_section">Contact</a></li> 
-				</ul>
-			</div>
-		</nav>
+		<div class="footer">
+    <!-- <span class="">Place sticky footer content here.</span> -->
+	  </div>
 	</div>
 </body>
 </html>
